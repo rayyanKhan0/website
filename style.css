@@ -1,1 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
 
+.document-container {
+    background: white;
+    width: 8.5in; /* Standard letter size width */
+    min-height: 11in; /* Standard letter size height */
+    margin: 20px 0;
+    padding: 1in; /* Add padding to mimic page margins */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for paper effect */
+    border-radius: 5px;
+}
